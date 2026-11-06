@@ -1,10 +1,10 @@
-﻿codigo,producto,categoria,presentacion_variante,precio_bs,tipo,observacion
-COF001,Radium latte fit,Menú fit - bebidas calientes,Shot,17.0,Producto,Aparece también un nombre relacionado en Elemental Lattes; revisar si es la misma ficha comercial.
-COF002,Radium latte fit,Menú fit - bebidas calientes,Latte,32.0,Producto,Aparece también un nombre relacionado en Elemental Lattes; revisar si es la misma ficha comercial.
-COF003,Aurum latte fit,Menú fit - bebidas calientes,Shot,17.0,Producto,Aparece también un nombre relacionado en Elemental Lattes; revisar si es la misma ficha comercial.
-COF004,Aurum latte fit,Menú fit - bebidas calientes,Latte,32.0,Producto,Aparece también un nombre relacionado en Elemental Lattes; revisar si es la misma ficha comercial.
-COF005,Phosphorus latte fit,Menú fit - bebidas calientes,Shot,17.0,Producto,Aparece también un nombre relacionado en Elemental Lattes; revisar si es la misma ficha comercial.
-COF006,Phosphorus latte fit,Menú fit - bebidas calientes,Latte,32.0,Producto,Aparece también un nombre relacionado en Elemental Lattes; revisar si es la misma ficha comercial.
+﻿codigo,producto,categoria,presentacion_variante,precio_bs,tipo
+COF001,Radium latte fit,Menú fit - bebidas calientes,Shot,17.0,Producto,
+COF002,Radium latte fit,Menú fit - bebidas calientes,Latte,32.0,Producto
+COF003,Aurum latte fit,Menú fit - bebidas calientes,Shot,17.0,Producto
+COF004,Aurum latte fit,Menú fit - bebidas calientes,Latte,32.0,Producto
+COF005,Phosphorus latte fit,Menú fit - bebidas calientes,Shot,17.0
+COF006,Phosphorus latte fit,Menú fit - bebidas calientes,Latte,32.0
 COF007,Cold brew,Menú fit - bebidas frías,Regular,16.0,Producto,
 COF008,Smoothie pro,Menú fit - bebidas frías,Regular,33.0,Producto,
 COF009,Panqueques de avena,Menú fit - snacks,Regular,31.0,Producto,
