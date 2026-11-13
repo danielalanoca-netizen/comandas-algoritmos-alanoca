@@ -1,0 +1,11 @@
+# Conclusiones del torneo de ordenamientos
+
+1. En las cuatro pruebas, Inserción fue el algoritmo que más tardó en ordenar los datos. Con 10.000 números tardó aproximadamente 2 segundos, mientras que con 80.000 tardó casi 4 minutos.
+
+2. QuickSort tuvo un rendimiento mucho mejor que Inserción. Con 80.000 números logró ordenar los datos en aproximadamente 137 milisegundos.
+
+3. El método `sort()` de Python fue el más rápido en todas las pruebas. Con 80.000 números tardó solamente 16 milisegundos.
+
+4. Al duplicar la cantidad de datos, observamos que Inserción aumentaba mucho más su tiempo de ejecución, mientras que QuickSort y Python sort mantenían tiempos de crecimiento más moderados.
+
+5. Con estos resultados comprobamos que elegir un buen algoritmo hace una gran diferencia. Aunque los tres cumplen la misma función, el tiempo que necesitan para ordenar los datos puede ser muy diferente.
