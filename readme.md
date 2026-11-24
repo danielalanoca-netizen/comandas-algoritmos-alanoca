@@ -2,78 +2,95 @@
 
 ## 1. Descripción del proyecto
 
-Este proyecto tiene como objetivo analizar y estudiar posibles mejoras en los procesos de gestión de inventario de Coffeeology mediante la aplicación de estructuras de datos y algoritmos.
+Este proyecto busca analizar cómo se realiza el control del inventario de Coffeeology y estudiar formas de mejorar este proceso mediante el uso de estructuras de datos y algoritmos.
 
-El trabajo se desarrolla utilizando Python y se enfoca en comprender el funcionamiento del proceso actual, identificar sus dificultades y evaluar alternativas algorítmicas mediante pruebas y mediciones de rendimiento.
+El trabajo se desarrolla utilizando Python. Se busca entender el problema, probar diferentes soluciones y comparar sus tiempos de ejecución.
 
-## 2. Evolución del problema
+## 2. Cómo surgió el problema
 
-Inicialmente, el proyecto estaba orientado a optimizar la búsqueda y verificación de productos al momento de registrar las comandas de los clientes.
+Al principio, el proyecto se enfocaba en mejorar la búsqueda de productos al momento de registrar las comandas de los clientes.
 
-Sin embargo, durante el análisis del funcionamiento de Coffeeology se identificó que el control y la revisión del inventario representan un proceso que requiere más tiempo y atención del personal.
+Sin embargo, al conocer mejor el funcionamiento de Coffeeology, se identificó que la revisión del inventario también representa una dificultad, ya que requiere bastante tiempo y atención del personal.
 
-Por este motivo, se decidió actualizar el enfoque del proyecto hacia la gestión del inventario, priorizando el análisis de las operaciones que realiza el personal para identificar materias primas faltantes y preparar las solicitudes de compra.
+Por esta razón, se decidió enfocar el proyecto en el control de inventario y en la identificación de materias primas que necesitan reposición.
 
-## 3. Descripción del proceso actual
+## 3. Cómo se realiza actualmente el inventario
 
-Coffeeology maneja un inventario de materias primas que puede alcanzar aproximadamente 450 registros, con un uso habitual de alrededor de 350 materias primas durante un mes.
+Coffeeology puede manejar aproximadamente 450 materias primas, de las cuales alrededor de 350 se utilizan normalmente durante un mes.
 
-Actualmente, el control del inventario se realiza mediante revisiones manuales y la experiencia del personal.
+Actualmente, el inventario se revisa manualmente y el personal utiliza su experiencia para identificar qué productos hacen falta.
 
 El proceso funciona de la siguiente manera:
 
-1. Durante el turno de la mañana se identifican las materias primas faltantes o que necesitan reposición.
-2. La información se comunica al encargado del turno de la tarde.
-3. Durante el turno de la tarde se pueden identificar otras necesidades y se informa al encargado del turno de la noche.
-4. El encargado del turno de la noche consolida la información y revisa las necesidades del inventario.
-5. Aproximadamente a las 21:30 se prepara una lista de compra.
-6. La lista se envía mediante WhatsApp al personal encargado de realizar las compras.
-7. Al día siguiente, los turnos reciben las materias primas adquiridas.
+1. El turno de la mañana revisa las materias primas y comunica cuáles hacen falta.
+2. El encargado de la tarde recibe la información.
+3. Durante la tarde se pueden identificar otras necesidades y se comunican al encargado de la noche.
+4. El encargado de la noche reúne toda la información y revisa las necesidades.
+5. Aproximadamente a las 21:30 prepara la lista de compras.
+6. La lista se envía por WhatsApp al personal encargado de realizar las compras.
+7. Al día siguiente se reciben las materias primas compradas.
 
-La revisión del inventario se realiza diariamente antes del cierre. Este proceso puede requerir entre 30 minutos y una hora de trabajo del encargado.
+Esta revisión se realiza todos los días antes del cierre y puede tomar entre 30 minutos y una hora.
 
 ## 4. Problema identificado
 
-La revisión manual de una cantidad considerable de materias primas puede consumir tiempo y dificultar la identificación de productos faltantes.
+La revisión manual de tantas materias primas puede tomar bastante tiempo y dificultar la identificación de los productos que necesitan reposición.
 
-Además, la información debe recopilarse entre distintos turnos, lo que hace necesario consolidar los datos antes de preparar la lista de compra.
+Además, la información se comunica entre diferentes turnos, por lo que el encargado de la noche debe reunir todos los datos antes de preparar la lista de compras.
 
-Por ello, se considera importante analizar estructuras de datos y algoritmos que permitan mejorar la búsqueda, actualización y consulta de la información del inventario.
+Por eso, se busca estudiar formas de organizar y consultar mejor la información del inventario.
 
-## 5. Objetivo general
+## 5. Objetivo del proyecto
 
-Analizar y evaluar estructuras de datos y algoritmos que permitan mejorar la eficiencia de las operaciones relacionadas con la gestión del inventario de Coffeeology, mediante implementaciones en Python y mediciones de rendimiento.
+Analizar diferentes estructuras de datos y algoritmos que puedan ayudar a mejorar las tareas relacionadas con el inventario de Coffeeology.
+
+Para ello, se desarrollan programas en Python y se realizan pruebas para comparar sus resultados y tiempos de ejecución.
 
 ## 6. Desarrollo por hitos
 
-### H1 — Análisis inicial del problema
+### H1 — Análisis del problema
 
-Análisis del contexto de Coffeeology, identificación del proceso que se desea estudiar y descripción de las dificultades encontradas.
+Se estudió el funcionamiento de Coffeeology, se identificó el problema y se describió cómo se realiza actualmente el control del inventario.
 
 ### H2 — Estructuras de datos
 
-Análisis de las operaciones del inventario y evaluación de estructuras de datos para almacenar, buscar y administrar las materias primas.
+Se estudiaron diferentes formas de almacenar y buscar materias primas.
 
-Se estudia el rendimiento de las alternativas mediante pruebas experimentales y comparación de tiempos de ejecución.
+Se realizaron pruebas para comparar el rendimiento de las estructuras de datos y conocer cuál resulta más conveniente para las operaciones del inventario.
 
-### H3 — Estrategias de optimización
+### H3 — Estrategias y grafos
 
-Análisis de estrategias algorítmicas mediante problemas de optimización relacionados con el contexto de Coffeeology.
+Se compararon dos formas de resolver un problema de selección de productos con un presupuesto limitado:
 
-Se realizan comparaciones entre fuerza bruta y programación dinámica, además de estudiar la representación de procesos mediante grafos.
+- Fuerza bruta.
+- Programación dinámica.
 
-**Nota:** Los problemas de optimización utilizados en los experimentos académicos pueden emplear datos simulados. Estos resultados no representan necesariamente operaciones implementadas actualmente en Coffeeology.
+También se representó el proceso de inventario de Coffeeology mediante un grafo dirigido.
 
-## 7. Tecnologías utilizadas
+Para este ejercicio se trabajó con:
+
+- Lista de adyacencia.
+- Matriz de adyacencia.
+- Algoritmo BFS (búsqueda en anchura).
+
+Con esto se pudo representar la comunicación entre los turnos, el encargado de compras y la recepción de las materias primas.
+
+**Nota:** Algunos ejercicios utilizan datos simulados para realizar las pruebas. Por lo tanto, sus resultados son académicos y no representan necesariamente datos reales ni sistemas utilizados actualmente por Coffeeology.
+
+## 7. Herramientas utilizadas
 
 - **Lenguaje de programación:** Python.
 - **Editor de código:** Visual Studio Code.
 - **Control de versiones:** Git y GitHub.
-- **Análisis:** estructuras de datos, algoritmos y mediciones de rendimiento.
 
-## 8. Organización del proyecto
+Cada carpeta contiene los documentos y programas correspondientes al trabajo realizado en cada hito.
 
-La documentación y los ejercicios se organizan por hitos y prácticas de la asignatura.
+## 8. Conclusión
 
-- `hitos/h2/`: documentación y experimentos del segundo hito.
-- `hitos/h3/`: documentación y experimentos del tercer hito.
+Durante el desarrollo del proyecto se estudiaron diferentes formas de resolver problemas relacionados con el inventario de Coffeeology.
+
+Se trabajó con estructuras de datos, algoritmos de búsqueda, programación dinámica y grafos.
+
+Las pruebas permitieron comparar diferentes soluciones y comprender cómo influye la elección de un algoritmo o estructura de datos en el tiempo de ejecución.
+
+El proyecto permite aplicar los conocimientos de la materia a un problema basado en el funcionamiento de un negocio real.
